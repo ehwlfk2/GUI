@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.FlowPane?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+
+<FlowPane prefWidth="300.0" prefHeight="70.0" hgap="10.0" vgap="10.0" xmlns:fx="http://javafx.com/fxml/1">
+	<!-- TODO Add Nodes -->
+	
+	<padding>
+		<Insets top="10.0" bottom="10.0" left="10.0" right="10.0" />
+	</padding>
+	
+	<children>
+		<Button text="button1" />
+		<Button text="button2" />
+		<Button text="button3" />
+		<Button text="button4" />
+		<Button text="button5" />
+		<Button text="button6" />
+		<Button text="button7" />
+	</children>
+</FlowPane>
+

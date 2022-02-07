@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.image.Image?>
+
+<StackPane xmlns:fx="http://javafx.com/fxml/1">
+	<!-- TODO Add Nodes -->
+	
+	<children>
+		<ImageView fitWidth="500" fitHeight="300">
+			<image>
+				<Image url="@../image/javafx.png" />
+			</image>		
+		</ImageView>
+ 
+		<ImageView preserveRatio="true" fitHeight="100">
+			<image>
+				<Image url="@../image/Netty.png" />
+			</image>		
+		</ImageView>
+	</children>
+	
+</StackPane>
+
