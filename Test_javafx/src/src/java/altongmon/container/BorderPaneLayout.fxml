@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.control.ToolBar?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.Button?>
+
+<BorderPane xmlns:fx="http://javafx.com/fxml/1"
+	prefHeight="200.0" prefWidth="300.0">
+	<!-- TODO Add Nodes -->
+
+	<!-- 상 -->
+	<top>
+		<ToolBar>
+			<items>
+				<Button text="button1" />
+				<Button text="button2" />
+			</items>
+		</ToolBar>
+	</top>
+
+	<!-- 하 -->
+	<bottom>
+		<BorderPane>
+			<center>
+				<TextField />
+			</center>
+			<right>
+				<Button text="button3" />
+			</right>
+		</BorderPane>
+	</bottom>
+
+	<!-- 좌 -->
+	<left>
+
+	</left>
+
+	<!-- 우 -->
+	<right>
+
+	</right>
+
+	<!-- 중앙 -->
+	<center>
+		<TextArea />
+	</center>
+
+</BorderPane>
+
